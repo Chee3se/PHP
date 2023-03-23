@@ -1,0 +1,43 @@
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    height: 100vh;
+}
+.text {
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transform: scale(1.7);
+    text-align: center;
+}
+
+.submit {
+    width: 108px;
+    padding: none;
+    border-radius: 10px;
+    transform: scale(1.7);
+    background-color: black;
+    color: white;
+    margin-bottom: 15px;
+}
+.submit:hover {
+    transition: ease 0.5s;
+    background-color: white;
+    color: black;
+}
+.submit:not(:hover) {
+    transition: ease 0.5s;
+    background-color: black;
+    color: white;
+}
+.outHolder {
+    width: 170px;
+    border-radius: 10px;
+    border: 4px solid gray;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+}
