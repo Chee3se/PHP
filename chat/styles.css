@@ -1,0 +1,8 @@
+#holder div {
+    color: white;
+    background-color: black;
+    margin: 5px;
+    width: fit-content;
+    border: black solid 2px;
+    border-radius: 10px;
+}
